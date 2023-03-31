@@ -58,8 +58,6 @@ class _todoAppState extends State<todoApp> {
                     onChanged: (value) {
                       setState(() {
                         val = value;
-
-                        value = '';
                       });
                     },
                   ),
